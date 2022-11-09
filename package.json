@@ -18,8 +18,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "component": "generate-react component",
     "build": "react-scripts build",
-    "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -39,5 +39,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "generate-react-cli": "^8.0.1",
+    "postcss-normalize": "^10.0.1",
+    "sass": "^1.56.1"
   }
 }
