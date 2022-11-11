@@ -1,10 +1,12 @@
-import React from 'react';
-import {Container} from "./components/Container";
+import { TheHeader } from "components/TheHeader";
+import React from "react";
+import { Container } from "./components/Container";
 
 function App() {
   return (
     <Container>
-        <h1>hello world</h1>
+      <TheHeader />
+      <h1>hello world</h1>
     </Container>
   );
 }
