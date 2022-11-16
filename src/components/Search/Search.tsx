@@ -17,6 +17,7 @@ export const Search = ({hasError, onSubmit}: SearchProps) => {
 
 
         const handleSubmit = (e: React.FormEvent<HTMLFormElement & FormFields>) => {
+
             e.preventDefault()
             const text = e.currentTarget.username.value
             if(text){
@@ -33,7 +34,7 @@ export const Search = ({hasError, onSubmit}: SearchProps) => {
                     </label>
                     <input type='text'
                            id='search'
-                           name='userName'
+                           name='username'
                            className={styles.textField}
                            placeholder='Search GitHub UserName'
                     />
